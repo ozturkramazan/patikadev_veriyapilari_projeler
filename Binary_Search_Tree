@@ -1,0 +1,12 @@
+[7,5,1,8,3,6,0,9,4,2] Binary search tree aşamalarını yazınız.
+
+root=7 listeyi başından itibaren 7 hariç soldan başlayarak roota göre yerleştiriyorum
+5 5<7 hemen 7 nin soluna bir node
+1 1<7 den 1<5 5'in solunda
+8 8>7 7'nin sağında
+3 3<7, 3<5, 3>1 1'in sağında
+6 6<7, 6>5 5 in sağında
+0 0<7, 0<5, 0<1 1'in solunda
+9 9>7, 9>8 8'in sağında
+4 4<7, 4<5, 4>1, 4>3 3'ün sağında
+2 2<7, 2<5, 2>1, 3<2 3'ün solunda
